@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shlok Bagde Resume</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+    body {
+      background: #eef2ff;
+      color: #0f172a;
+      line-height: 1.6;
+      padding: 32px;
+    }
+    .resume {
+      max-width: 920px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 30px 90px rgba(15, 23, 42, 0.16);
+    }
+    .hero {
+      background: linear-gradient(135deg, #1a0b2e, #16213e, #0f3460);
+      color: white;
+      padding: 42px;
+    }
+    h1 { font-size: 46px; line-height: 1; margin-bottom: 10px; }
+    .role { font-size: 20px; color: #dbeafe; margin-bottom: 20px; font-weight: 600; }
+    .contact { display: flex; flex-wrap: wrap; gap: 12px; color: #eef2ff; font-weight: 500; }
+    .contact span {
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      padding: 8px 12px;
+      border-radius: 999px;
+    }
+    .content { padding: 38px 42px 44px; display: grid; gap: 28px; }
+    .section { border-bottom: 1px solid #e2e8f0; padding-bottom: 24px; }
+    .section:last-child { border-bottom: 0; padding-bottom: 0; }
+    h2 { color: #4f46e5; font-size: 22px; margin-bottom: 14px; }
+    h3 { font-size: 18px; margin-bottom: 4px; }
+    p, li { color: #334155; }
+    ul { padding-left: 20px; display: grid; gap: 7px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .box {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 18px;
+    }
+    .tags { display: flex; flex-wrap: wrap; gap: 9px; }
+    .tags span {
+      background: #eef2ff;
+      color: #4338ca;
+      padding: 7px 11px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 13px;
+    }
+    .item { margin-bottom: 14px; }
+    .item:last-child { margin-bottom: 0; }
+    .meta { color: #64748b; font-weight: 600; font-size: 14px; }
+    .actions {
+      max-width: 920px;
+      margin: 18px auto 0;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+    }
+    .actions button {
+      border: 0;
+      background: #4f46e5;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 999px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+    @media print {
+      body { background: white; padding: 0; }
+      .resume { box-shadow: none; border-radius: 0; }
+      .actions { display: none; }
+    }
+    @media (max-width: 700px) {
+      body { padding: 14px; }
+      .hero, .content { padding: 28px; }
+      h1 { font-size: 36px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <article class="resume">
+    <header class="hero">
+      <h1>Shlok Bagde</h1>
+      <p class="role">B.Tech CSE Data Science Student | Future AI Engineer</p>
+      <div class="contact">
+        <span>📍 Pune, India</span>
+        <span>✉️ shlokbgade51@gmail.com</span>
+        <span>📞 +91 9322419609</span>
+        <span>💼 Open to Internships</span>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="section">
+        <h2>Profile Summary</h2>
+        <p>First-year Computer Science and Data Science student at MIT Academy of Engineering, Pune. Passionate about Artificial Intelligence, Data Science, problem-solving, web technologies, and practical project building. Focused on learning by doing and building useful solutions with code and hardware.</p>
+      </section>
+
+      <section class="section">
+        <h2>Education</h2>
+        <div class="item">
+          <h3>B.Tech CSE Data Science</h3>
+          <p class="meta">MIT Academy of Engineering, Pune | 1st Year, Semester 1 | SGPA: 8.95</p>
+        </div>
+        <div class="item">
+          <h3>Higher Secondary</h3>
+          <p class="meta">Shri Mahavir Marwadi College, Gondia | Class 12 | 82%</p>
+        </div>
+        <div class="item">
+          <h3>Secondary School</h3>
+          <p class="meta">Vivek Mandir CBSE School, Gondia | Class 10 | 87%</p>
+        </div>
+      </section>
+
+      <section class="section grid">
+        <div class="box">
+          <h2>Technical Skills</h2>
+          <div class="tags">
+            <span>Python</span><span>Java</span><span>C / C++</span><span>HTML</span><span>CSS</span><span>DBMS</span><span>DSA</span><span>Machine Learning Basics</span>
+          </div>
+        </div>
+        <div class="box">
+          <h2>Core Focus</h2>
+          <ul>
+            <li>Data Structures &amp; Algorithms</li>
+            <li>Machine Learning Foundations</li>
+            <li>Database Management</li>
+            <li>Problem Solving</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Projects</h2>
+        <div class="item">
+          <h3>Talking Circuit Board</h3>
+          <p>A hardware and software solution designed to help visually impaired students understand electronic circuits through clear audio guidance.</p>
+        </div>
+        <div class="item">
+          <h3>Racing Game</h3>
+          <p>A Python racing game demonstrating logic building, collision detection, score tracking, object-oriented design, and gameplay fundamentals.</p>
+        </div>
+        <div class="item">
+          <h3>Security Alarm System</h3>
+          <p>A hardware-based alarm system built for safety and intrusion detection using sensors and real-time alert mechanisms.</p>
+        </div>
+      </section>
+
+      <section class="section grid">
+        <div class="box">
+          <h2>Achievements</h2>
+          <ul>
+            <li>National 3rd Runner Up - UCMAS Competition</li>
+            <li>State 2nd Runner Up - UCMAS Competition</li>
+            <li>State 1st Runner Up - UCMAS Competition</li>
+            <li>District Level UCMAS Achievements</li>
+            <li>1st Runner Up - Infinite Canvas Poster Presentation Competition</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h2>Certificates</h2>
+          <ul>
+            <li>Oracle Certificate</li>
+            <li>Great Learning Certificate</li>
+            <li>International Youth Math Challenge Participation</li>
+            <li>SQL Using AI Workshop - AI For Techies</li>
+            <li>AI Tools Workshop - be10x</li>
+            <li>Introduction to Modern AI - Cisco Networking Academy + MITAOE</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </article>
+  <div class="actions">
+    <button onclick="window.print()">Print or Save as PDF</button>
+  </div>
+</body>
+</html>
